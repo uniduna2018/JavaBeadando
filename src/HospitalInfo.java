@@ -58,7 +58,7 @@ public class HospitalInfo extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 610, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Franklin Gothic Heavy", 1, 48)); // NOI18N
-        jLabel3.setText("HOSPITAL INFORMATION");
+        jLabel3.setText("KÓRHÁZ INFORMÁCIÓ");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 50, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hosp.jpg"))); // NOI18N

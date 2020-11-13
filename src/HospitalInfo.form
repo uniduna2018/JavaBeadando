@@ -80,7 +80,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Franklin Gothic Heavy" size="48" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="HOSPITAL INFORMATION"/>
+        <Property name="text" type="java.lang.String" value="K&#xd3;RH&#xc1;Z INFORM&#xc1;CI&#xd3;"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
