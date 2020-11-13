@@ -92,12 +92,12 @@ public class Login extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         if(lblUsername.getText().equals("admin") && lblPassword.getText().equals("admin")){
-            JOptionPane.showMessageDialog(null, "Login Successful");
+            JOptionPane.showMessageDialog(null, "Bejelentkezes sikeres");
             this.setVisible(false);
             new Home().setVisible(true);
         }
         else{
-             JOptionPane.showMessageDialog(null, "Incorrect Username or Password");
+             JOptionPane.showMessageDialog(null, "Hibas felhasználói név vagy jelszó");
              lblUsername.setText("");
              lblPassword.setText("");
         }
@@ -105,7 +105,7 @@ public class Login extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        int a = JOptionPane.showConfirmDialog(null, "Do you really want to close application", "Select", JOptionPane.YES_NO_OPTION);
+        int a = JOptionPane.showConfirmDialog(null, "Tényleg beakarod zárni a programot", "Select", JOptionPane.YES_NO_OPTION);
         if(a == 0){
             System.exit(0);
         }
