@@ -85,7 +85,7 @@
           <Font name="Tahoma" size="13" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/login.png"/>
+          <Image iconType="3" name="/images/login.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Bel&#xe9;p&#xe9;s"/>
       </Properties>
@@ -104,7 +104,7 @@
           <Font name="Tahoma" size="13" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Close.png"/>
+          <Image iconType="3" name="/images/Close.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Bez&#xe1;r&#xe1;s"/>
       </Properties>

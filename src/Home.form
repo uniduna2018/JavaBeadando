@@ -29,7 +29,7 @@
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/two arrow.png"/>
+          <Image iconType="3" name="/images/two arrow.png"/>
         </Property>
       </Properties>
       <Events>
@@ -44,7 +44,7 @@
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/add new patient.png"/>
+          <Image iconType="3" name="/images/add new patient.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="&#xda;j beteg felv&#xe9;tele"/>
       </Properties>
@@ -60,7 +60,7 @@
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/rsz_history1.png"/>
+          <Image iconType="3" name="/images/rsz_history1.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="K&#xf3;rt&#xf6;rt&#xe9;net"/>
       </Properties>
@@ -76,7 +76,7 @@
     <Component class="javax.swing.JButton" name="jButton4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/rsz_update_details.png"/>
+          <Image iconType="3" name="/images/rsz_update_details.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Adatm&#xf3;dosit&#xe1;s"/>
       </Properties>
@@ -92,7 +92,7 @@
     <Component class="javax.swing.JButton" name="jButton5">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/rsz_hospital_information.png"/>
+          <Image iconType="3" name="/images/rsz_hospital_information.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="K&#xf3;rh&#xe1;z inform&#xe1;ci&#xf3;"/>
       </Properties>
@@ -108,7 +108,7 @@
     <Component class="javax.swing.JButton" name="jButton6">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/exit.png"/>
+          <Image iconType="3" name="/images/exit.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Kijelentkez&#xe9;s"/>
       </Properties>
@@ -124,7 +124,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/home.jpg"/>
+          <Image iconType="3" name="/images/home.jpg"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel1"/>
       </Properties>
