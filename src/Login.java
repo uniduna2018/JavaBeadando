@@ -115,13 +115,12 @@ public class Login extends javax.swing.JFrame {
     
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        if(lblUsername.getText().equals("admin") && lblPassword.getText().equals("admin")){
-            JOptionPane.showMessageDialog(null, "Bejelentkezes sikeres");
+        if(lblUsername.getText().equals("admin") && lblPassword.getText().equals("admin")){            
             this.setVisible(false);
             new Home().setVisible(true);
         }
         else{
-             JOptionPane.showMessageDialog(null, "Hibas felhasználói név vagy jelszó");
+             JOptionPane.showMessageDialog(null, "Hibas felhasználói név vagy jelszó...");
              lblUsername.setText("");
              lblPassword.setText("");
         }
