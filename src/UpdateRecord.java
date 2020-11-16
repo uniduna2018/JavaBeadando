@@ -190,7 +190,7 @@ public class UpdateRecord extends javax.swing.JFrame {
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/hospital1.jpg"))); // NOI18N
         jLabel14.setText("jLabel14");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1360, 690));
 
         pack();
         setLocationRelativeTo(null);
@@ -240,24 +240,21 @@ public class UpdateRecord extends javax.swing.JFrame {
     }
     
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
         this.setVisible(false);
         new Home().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
-        // TODO add your handling code here:
-        
+
         DefaultTableModel model = (DefaultTableModel)empTable.getModel();
         int selectedIndex = empTable.getSelectedRow();
-
         int id = Integer.parseInt(model.getValueAt(selectedIndex, 0).toString());
       
         try {
             Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
             con = DriverManager.getConnection("jdbc:ucanaccess://Hospital.accdb");
             
-                pst = con.prepareStatement("update hospital set Név = ?, Telefonszám = ?, Kor = ?, Nem = ?, Vércsoport = ?, Cím = ?, Tünetek = ?, Diagnózis = ?, Gyógyszerek = ?, where ID = ?");
+                pst = con.prepareStatement("update hospital set Név=?, Telefonszám=?, Kor=?, Nem=?, Vércsoport=?, Cím=?, Tünetek=?, Diagnózis=?, Gyógyszerek=?, where ID=?");
                 pst.setString(1, lblName.getText());
                 pst.setString(2, lblContact.getText());
                 pst.setString(3, lblAge.getText());
@@ -300,7 +297,6 @@ public class UpdateRecord extends javax.swing.JFrame {
     }//GEN-LAST:event_btnUpdateActionPerformed
 
     private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
-        // TODO add your handling code here:
         DefaultTableModel model = (DefaultTableModel)empTable.getModel();
         int selectedIndex = empTable.getSelectedRow();
 
@@ -341,8 +337,7 @@ public class UpdateRecord extends javax.swing.JFrame {
     }//GEN-LAST:event_btnDeleteActionPerformed
 
     private void empTableMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_empTableMouseClicked
-        // TODO add your handling code here:
-         DefaultTableModel model = (DefaultTableModel)empTable.getModel();
+        DefaultTableModel model = (DefaultTableModel)empTable.getModel();
         int selectedIndex = empTable.getSelectedRow();
         
         lblId.setText(model.getValueAt(selectedIndex, 0).toString());
