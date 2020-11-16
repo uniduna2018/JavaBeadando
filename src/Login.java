@@ -120,7 +120,7 @@ public class Login extends javax.swing.JFrame {
             new Home().setVisible(true);
         }
         else{
-             JOptionPane.showMessageDialog(null, "Hibas felhasználói név vagy jelszó...");
+             JOptionPane.showMessageDialog(null, "Hibás felhasználónév vagy jelszó...");
              lblUsername.setText("");
              lblPassword.setText("");
         }
@@ -128,7 +128,7 @@ public class Login extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        int a = JOptionPane.showConfirmDialog(null, "Tényleg beakarod zárni a programot", "Select", JOptionPane.YES_NO_OPTION);
+        int a = JOptionPane.showConfirmDialog(null, "Tényleg beakarod zárni a programot?", "Figyelmeztetés", JOptionPane.YES_NO_OPTION);
         if(a == 0){
             System.exit(0);
         }

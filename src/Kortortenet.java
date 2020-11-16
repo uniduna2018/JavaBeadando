@@ -58,30 +58,31 @@ public class Kortortenet extends javax.swing.JFrame {
 
         empTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "patientID", "name", "contactNo", "age", "gender", "bloodGroup", "address", "symptoms", "diagnosis", "medicines", "typeOfWard"
+                "ID", "Név", "Telefonszám", "Kor", "Nem", "Vércsoport", " Cím", "Tünetek", " Diagnózis", "Gyógyszerek"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.Long.class, java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+                java.lang.Integer.class, java.lang.String.class, java.lang.Long.class, java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
             public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
         });
+        empTable.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane1.setViewportView(empTable);
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 820, 210));
 
         jButton1.setBackground(new java.awt.Color(0, 153, 153));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Close.png"))); // NOI18N
-        jButton1.setText("Close");
+        jButton1.setText("Bezárás");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -91,8 +92,8 @@ public class Kortortenet extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 380, 110, 50));
 
         jLabel2.setFont(new java.awt.Font("Papyrus", 1, 36)); // NOI18N
-        jLabel2.setText("FULL HISTORY OF PATIENTS");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 40, -1, -1));
+        jLabel2.setText("KÓRTÖRTÉNET");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 40, -1, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/blueback2.jpg"))); // NOI18N
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 500));
@@ -121,16 +122,15 @@ public class Kortortenet extends javax.swing.JFrame {
                 for(int i = 1; i<=c ;i++)
                 {
                     v2.add(rs.getString("ID"));
-                    v2.add(rs.getString("name"));
-                    v2.add(rs.getString("contact"));
-                    v2.add(rs.getString("age"));
-                    v2.add(rs.getString("gender"));
-                    v2.add(rs.getString("bloodGroup"));
-                    v2.add(rs.getString("address"));
-                    v2.add(rs.getString("symptoms"));
-                    v2.add(rs.getString("diagnosis"));
-                    v2.add(rs.getString("medicines"));
-                    v2.add(rs.getString("typeOfWard"));
+                    v2.add(rs.getString("Név"));
+                    v2.add(rs.getString("Telefonszám"));
+                    v2.add(rs.getString("Kor"));
+                    v2.add(rs.getString("Nem"));
+                    v2.add(rs.getString("Vércsoport"));
+                    v2.add(rs.getString("Cím"));
+                    v2.add(rs.getString("Tünetek"));
+                    v2.add(rs.getString("Diagnózis"));
+                    v2.add(rs.getString("Gyógyszerek"));
                     
                 }
                 dft.addRow(v2);

@@ -48,18 +48,17 @@
         <Component class="javax.swing.JTable" name="empTable">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-              <Table columnCount="11" rowCount="4">
-                <Column editable="true" title="patientID" type="java.lang.Integer"/>
-                <Column editable="true" title="name" type="java.lang.String"/>
-                <Column editable="true" title="contactNo" type="java.lang.Long"/>
-                <Column editable="true" title="age" type="java.lang.Integer"/>
-                <Column editable="true" title="gender" type="java.lang.String"/>
-                <Column editable="true" title="bloodGroup" type="java.lang.String"/>
-                <Column editable="true" title="address" type="java.lang.String"/>
-                <Column editable="true" title="symptoms" type="java.lang.String"/>
-                <Column editable="true" title="diagnosis" type="java.lang.String"/>
-                <Column editable="true" title="medicines" type="java.lang.String"/>
-                <Column editable="true" title="typeOfWard" type="java.lang.String"/>
+              <Table columnCount="10" rowCount="4">
+                <Column editable="true" title="ID" type="java.lang.Integer"/>
+                <Column editable="true" title="N&#xe9;v" type="java.lang.String"/>
+                <Column editable="true" title="Telefonsz&#xe1;m" type="java.lang.Long"/>
+                <Column editable="true" title="Kor" type="java.lang.Integer"/>
+                <Column editable="true" title="Nem" type="java.lang.String"/>
+                <Column editable="true" title="V&#xe9;rcsoport" type="java.lang.String"/>
+                <Column editable="true" title=" C&#xed;m" type="java.lang.String"/>
+                <Column editable="true" title="T&#xfc;netek" type="java.lang.String"/>
+                <Column editable="true" title=" Diagn&#xf3;zis" type="java.lang.String"/>
+                <Column editable="true" title="Gy&#xf3;gyszerek" type="java.lang.String"/>
               </Table>
             </Property>
             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -114,13 +113,9 @@
                   <Editor/>
                   <Renderer/>
                 </Column>
-                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                  <Title/>
-                  <Editor/>
-                  <Renderer/>
-                </Column>
               </TableColumnModel>
             </Property>
+            <Property name="selectionMode" type="int" value="0"/>
             <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
               <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
             </Property>
@@ -136,7 +131,7 @@
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/images/Close.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Close"/>
+        <Property name="text" type="java.lang.String" value="Bez&#xe1;r&#xe1;s"/>
         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
           <Color id="Default Cursor"/>
         </Property>
@@ -155,11 +150,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Papyrus" size="36" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="FULL HISTORY OF PATIENTS"/>
+        <Property name="text" type="java.lang.String" value="K&#xd3;RT&#xd6;RT&#xc9;NET"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="270" y="40" width="-1" height="-1"/>
+          <AbsoluteConstraints x="450" y="40" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>

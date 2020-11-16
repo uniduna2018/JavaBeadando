@@ -66,7 +66,6 @@ public class UjEmber extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
         lblId = new javax.swing.JTextField();
         lblName = new javax.swing.JTextField();
         lblContact = new javax.swing.JTextField();
@@ -76,7 +75,6 @@ public class UjEmber extends javax.swing.JFrame {
         lblSymptoms = new javax.swing.JTextField();
         lblDiagnosis = new javax.swing.JTextField();
         lblMedicines = new javax.swing.JTextField();
-        lblType = new javax.swing.JComboBox<>();
         lblGender = new javax.swing.JComboBox<>();
         btnAdd = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
@@ -89,52 +87,48 @@ public class UjEmber extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Patient ID");
+        jLabel1.setText("ID:");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 90, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Name");
+        jLabel2.setText("Név:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Contact No.");
+        jLabel3.setText("Telefonszám:");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 170, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Age");
+        jLabel4.setText("Kor:");
         jLabel4.setToolTipText("");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel5.setText("Gender");
+        jLabel5.setText("Nem:");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 210, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel6.setText("Blood group");
+        jLabel6.setText("Vércsoport:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 210, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel7.setText("Address");
+        jLabel7.setText("Cím:");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 250, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel8.setText("Symptoms");
+        jLabel8.setText("Tünetek:");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 290, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel9.setText("Diagnosis");
+        jLabel9.setText("Diagnózis:");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 330, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel10.setText("Medicines");
+        jLabel10.setText("Gyógyszerek:");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 370, -1, -1));
-
-        jLabel13.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel13.setText("Type of Ward?");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 410, -1, -1));
 
         lblId.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -157,14 +151,11 @@ public class UjEmber extends javax.swing.JFrame {
         getContentPane().add(lblDiagnosis, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 330, 205, -1));
         getContentPane().add(lblMedicines, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 370, 205, -1));
 
-        lblType.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "General", "Single", "Duo" }));
-        getContentPane().add(lblType, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 410, -1, -1));
-
-        lblGender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female", "Other" }));
+        lblGender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Férfi", "Nő" }));
         getContentPane().add(lblGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 210, -1, -1));
 
         btnAdd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/save-icon--1.png"))); // NOI18N
-        btnAdd.setText("Add");
+        btnAdd.setText("Hozzáad");
         btnAdd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAddActionPerformed(evt);
@@ -173,13 +164,13 @@ public class UjEmber extends javax.swing.JFrame {
         getContentPane().add(btnAdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 450, -1, -1));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Close.png"))); // NOI18N
-        jButton2.setText("Close");
+        jButton2.setText("Bezárás");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 450, 80, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 450, 110, -1));
 
         jLabel12.setFont(new java.awt.Font("Lucida Calligraphy", 1, 36)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
@@ -209,7 +200,7 @@ public class UjEmber extends javax.swing.JFrame {
         try {
                 Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
                 con = DriverManager.getConnection("jdbc:ucanaccess://Hospital.accdb");
-                pst = con.prepareStatement("insert into hospital(name, contact, age, gender, bloodGroup, address, symptoms, diagnosis, medicines, typeOfWard)values(?,?,?,?,?,?,?,?,?,?) ");
+                pst = con.prepareStatement("insert into hospital(Név, Telefonszám, Kor, Nem, Vércsoport, Cím, Tünetek, Diagnózis, Gyógyszerek)values(?,?,?,?,?,?,?,?,?) ");
                
                 pst.setString(1, lblName.getText());
                 pst.setString(2, lblContact.getText());
@@ -220,10 +211,9 @@ public class UjEmber extends javax.swing.JFrame {
                 pst.setString(7, lblSymptoms.getText());
                 pst.setString(8, lblDiagnosis.getText());
                 pst.setString(9, lblMedicines.getText());
-                pst.setString(10, lblType.getSelectedItem().toString());
                
                 pst.executeUpdate();
-                JOptionPane.showMessageDialog(this, "Patient Added.");
+                JOptionPane.showMessageDialog(this, "Páciens hozzáadva.");
                 
                lblId.setText("");
                lblName.setText("");
@@ -235,7 +225,6 @@ public class UjEmber extends javax.swing.JFrame {
                lblSymptoms.setText("");
                lblDiagnosis.setText("");
                lblMedicines.setText("");
-               lblType.setSelectedIndex(0);
                
                
         } catch (ClassNotFoundException ex) {
@@ -293,7 +282,6 @@ public class UjEmber extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -312,6 +300,5 @@ public class UjEmber extends javax.swing.JFrame {
     private javax.swing.JTextField lblMedicines;
     private javax.swing.JTextField lblName;
     private javax.swing.JTextField lblSymptoms;
-    private javax.swing.JComboBox<String> lblType;
     // End of variables declaration//GEN-END:variables
 }

@@ -75,7 +75,7 @@ public class Home extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 390, 220, -1));
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 320, 220, -1));
 
         jButton1.setForeground(new java.awt.Color(255, 0, 51));
         jButton1.setText("X");
@@ -114,7 +114,7 @@ public class Home extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
-        int a = JOptionPane.showConfirmDialog(null, "Tényleg ki akarsz jelentkezni?", "Select", JOptionPane.YES_NO_OPTION);
+        int a = JOptionPane.showConfirmDialog(null, "Tényleg ki akarsz jelentkezni?", "Figyelmeztetés", JOptionPane.YES_NO_OPTION);
         if(a == 0){
            this.setVisible(false);
            new Login().setVisible(true);
@@ -133,7 +133,7 @@ public class Home extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
          this.setVisible(false);
-        new FullHistory().setVisible(true);
+        new Kortortenet().setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
