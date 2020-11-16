@@ -232,9 +232,9 @@ public class UpdateRecord extends javax.swing.JFrame {
             
             
         } catch (ClassNotFoundException ex) {
-            Logger.getLogger(FullHistory.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Kortortenet.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
-            Logger.getLogger(FullHistory.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Kortortenet.class.getName()).log(Level.SEVERE, null, ex);
         }
         
     }
