@@ -6,6 +6,9 @@
     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
       <Color id="Default Cursor"/>
     </Property>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1407, 768]"/>
+    </Property>
     <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
@@ -22,7 +25,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-86,0,0,4,-80"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-86,0,0,5,82"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
@@ -34,11 +37,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Patient ID"/>
+        <Property name="text" type="java.lang.String" value="ID:"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="490" y="240" width="-1" height="-1"/>
+          <AbsoluteConstraints x="500" y="240" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -47,7 +50,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Name"/>
+        <Property name="text" type="java.lang.String" value="N&#xe9;v:"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -60,11 +63,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Contact No."/>
+        <Property name="text" type="java.lang.String" value="Telefonsz&#xe1;m:"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="490" y="330" width="-1" height="-1"/>
+          <AbsoluteConstraints x="430" y="330" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -73,7 +76,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Age"/>
+        <Property name="text" type="java.lang.String" value="Kor:"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -86,7 +89,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Gender"/>
+        <Property name="text" type="java.lang.String" value="Nem:"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -99,7 +102,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Blood Group"/>
+        <Property name="text" type="java.lang.String" value="V&#xe9;rcsoport:"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -112,7 +115,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Address"/>
+        <Property name="text" type="java.lang.String" value="C&#xed;m:"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -125,11 +128,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Symptoms"/>
+        <Property name="text" type="java.lang.String" value="T&#xfc;netek:"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="490" y="460" width="-1" height="-1"/>
+          <AbsoluteConstraints x="460" y="460" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -138,11 +141,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Diagnosis"/>
+        <Property name="text" type="java.lang.String" value="Diagn&#xf3;zis:"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="490" y="510" width="-1" height="-1"/>
+          <AbsoluteConstraints x="460" y="510" width="-1" height="20"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -151,24 +154,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Medicines"/>
+        <Property name="text" type="java.lang.String" value="Gy&#xf3;gyszerek:"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="490" y="550" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel12">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Type of Ward"/>
-      </Properties>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="490" y="590" width="-1" height="-1"/>
+          <AbsoluteConstraints x="440" y="550" width="-1" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -189,7 +179,7 @@
     <Component class="javax.swing.JTextField" name="lblContact">
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="580" y="330" width="200" height="-1"/>
+          <AbsoluteConstraints x="570" y="330" width="200" height="-1"/>
         </Constraint>
       </Constraints>
     </Component>
@@ -238,10 +228,9 @@
     <Component class="javax.swing.JComboBox" name="lblGender">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="3">
-            <StringItem index="0" value="Male"/>
-            <StringItem index="1" value="Female"/>
-            <StringItem index="2" value="Other"/>
+          <StringArray count="2">
+            <StringItem index="0" value="F&#xe9;rfi"/>
+            <StringItem index="1" value="N&#x151;"/>
           </StringArray>
         </Property>
       </Properties>
@@ -254,31 +243,12 @@
         </Constraint>
       </Constraints>
     </Component>
-    <Component class="javax.swing.JComboBox" name="lblType">
-      <Properties>
-        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="3">
-            <StringItem index="0" value="General"/>
-            <StringItem index="1" value="Single"/>
-            <StringItem index="2" value="Duo"/>
-          </StringArray>
-        </Property>
-      </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-      </AuxValues>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="600" y="590" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/images/Close.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Close"/>
+        <Property name="text" type="java.lang.String" value="Bez&#xe1;r&#xe1;s"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
@@ -294,7 +264,7 @@
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/images/save-icon--1.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Update"/>
+        <Property name="text" type="java.lang.String" value="M&#xf3;dos&#xed;t&#xe1;s"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdateActionPerformed"/>
@@ -310,7 +280,7 @@
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/images/Close.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Delete"/>
+        <Property name="text" type="java.lang.String" value="T&#xf6;rl&#xe9;s"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDeleteActionPerformed"/>
@@ -336,27 +306,21 @@
         <Component class="javax.swing.JTable" name="empTable">
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-              <Table columnCount="11" rowCount="4">
-                <Column editable="true" title="patientId" type="java.lang.Integer"/>
-                <Column editable="true" title="name" type="java.lang.String"/>
-                <Column editable="true" title="contactNo" type="java.lang.Long"/>
-                <Column editable="true" title="age" type="java.lang.Integer"/>
-                <Column editable="true" title="gender" type="java.lang.String"/>
-                <Column editable="true" title="bloodGroup" type="java.lang.String"/>
-                <Column editable="true" title="address" type="java.lang.String"/>
-                <Column editable="true" title="symptoms" type="java.lang.String"/>
-                <Column editable="true" title="diagnosis" type="java.lang.String"/>
-                <Column editable="true" title="medicines" type="java.lang.String"/>
-                <Column editable="true" title="typeOfWard" type="java.lang.String"/>
+              <Table columnCount="10" rowCount="4">
+                <Column editable="true" title="ID" type="java.lang.Integer"/>
+                <Column editable="true" title="N&#xe9;v" type="java.lang.String"/>
+                <Column editable="true" title="Telefonsz&#xe1;m" type="java.lang.Long"/>
+                <Column editable="true" title="Kor" type="java.lang.Integer"/>
+                <Column editable="true" title="Nem" type="java.lang.String"/>
+                <Column editable="true" title="V&#xe9;rcsoport" type="java.lang.String"/>
+                <Column editable="true" title="C&#xed;m" type="java.lang.String"/>
+                <Column editable="true" title="T&#xfc;netek" type="java.lang.String"/>
+                <Column editable="true" title="Diagn&#xf3;zis" type="java.lang.String"/>
+                <Column editable="true" title="Gy&#xf3;gyszerek" type="java.lang.String"/>
               </Table>
             </Property>
             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
               <TableColumnModel selectionModel="0">
-                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                  <Title/>
-                  <Editor/>
-                  <Renderer/>
-                </Column>
                 <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
                   <Title/>
                   <Editor/>
@@ -424,7 +388,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Goudy Stout" size="36" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="UPDATE RECORD"/>
+        <Property name="text" type="java.lang.String" value="ADATM&#xd3;DOS&#xcd;T&#xc1;S"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">

@@ -53,7 +53,6 @@ public class UpdateRecord extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
         lblId = new javax.swing.JTextField();
         lblName = new javax.swing.JTextField();
         lblContact = new javax.swing.JTextField();
@@ -64,7 +63,6 @@ public class UpdateRecord extends javax.swing.JFrame {
         lblDiagnosis = new javax.swing.JTextField();
         lblMedicines = new javax.swing.JTextField();
         lblGender = new javax.swing.JComboBox<>();
-        lblType = new javax.swing.JComboBox<>();
         jButton1 = new javax.swing.JButton();
         btnUpdate = new javax.swing.JButton();
         btnDelete = new javax.swing.JButton();
@@ -75,55 +73,52 @@ public class UpdateRecord extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setMaximumSize(new java.awt.Dimension(1407, 768));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setText("Patient ID");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 240, -1, -1));
+        jLabel1.setText("ID:");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 240, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setText("Name");
+        jLabel2.setText("Név:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 280, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel3.setText("Contact No.");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 330, -1, -1));
+        jLabel3.setText("Telefonszám:");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 330, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel4.setText("Age");
+        jLabel4.setText("Kor:");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 380, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel5.setText("Gender");
+        jLabel5.setText("Nem:");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 380, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel6.setText("Blood Group");
+        jLabel6.setText("Vércsoport:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 380, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel7.setText("Address");
+        jLabel7.setText("Cím:");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 420, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel8.setText("Symptoms");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 460, -1, -1));
+        jLabel8.setText("Tünetek:");
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 460, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel9.setText("Diagnosis");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 510, -1, -1));
+        jLabel9.setText("Diagnózis:");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 510, -1, 20));
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel10.setText("Medicines");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 550, -1, -1));
-
-        jLabel12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel12.setText("Type of Ward");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 590, -1, -1));
+        jLabel10.setText("Gyógyszerek:");
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 550, -1, -1));
         getContentPane().add(lblId, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 240, 200, -1));
         getContentPane().add(lblName, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 280, 200, -1));
-        getContentPane().add(lblContact, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 330, 200, -1));
+        getContentPane().add(lblContact, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 330, 200, -1));
         getContentPane().add(lblAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 370, 70, 30));
         getContentPane().add(lblBlood, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 370, 60, 30));
         getContentPane().add(lblAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 420, 200, -1));
@@ -131,14 +126,11 @@ public class UpdateRecord extends javax.swing.JFrame {
         getContentPane().add(lblDiagnosis, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 510, 200, -1));
         getContentPane().add(lblMedicines, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 550, 200, -1));
 
-        lblGender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female", "Other" }));
+        lblGender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Férfi", "Nő" }));
         getContentPane().add(lblGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 380, -1, -1));
 
-        lblType.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "General", "Single", "Duo" }));
-        getContentPane().add(lblType, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 590, -1, -1));
-
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Close.png"))); // NOI18N
-        jButton1.setText("Close");
+        jButton1.setText("Bezárás");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -147,7 +139,7 @@ public class UpdateRecord extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 630, -1, -1));
 
         btnUpdate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/save-icon--1.png"))); // NOI18N
-        btnUpdate.setText("Update");
+        btnUpdate.setText("Módosítás");
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnUpdateActionPerformed(evt);
@@ -156,7 +148,7 @@ public class UpdateRecord extends javax.swing.JFrame {
         getContentPane().add(btnUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 630, -1, -1));
 
         btnDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Close.png"))); // NOI18N
-        btnDelete.setText("Delete");
+        btnDelete.setText("Törlés");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnDeleteActionPerformed(evt);
@@ -166,17 +158,17 @@ public class UpdateRecord extends javax.swing.JFrame {
 
         empTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "patientId", "name", "contactNo", "age", "gender", "bloodGroup", "address", "symptoms", "diagnosis", "medicines", "typeOfWard"
+                "ID", "Név", "Telefonszám", "Kor", "Nem", "Vércsoport", "Cím", "Tünetek", "Diagnózis", "Gyógyszerek"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.Long.class, java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+                java.lang.Integer.class, java.lang.String.class, java.lang.Long.class, java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -193,7 +185,7 @@ public class UpdateRecord extends javax.swing.JFrame {
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 120, 920, 90));
 
         jLabel11.setFont(new java.awt.Font("Goudy Stout", 1, 36)); // NOI18N
-        jLabel11.setText("UPDATE RECORD");
+        jLabel11.setText("ADATMÓDOSÍTÁS");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 40, -1, -1));
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/hospital1.jpg"))); // NOI18N
@@ -224,17 +216,15 @@ public class UpdateRecord extends javax.swing.JFrame {
                 for(int i = 1; i<=c ;i++)
                 {
                     v2.add(rs.getString("ID"));
-                    v2.add(rs.getString("name"));
-                    v2.add(rs.getString("contact"));
-                    v2.add(rs.getString("age"));
-                    v2.add(rs.getString("gender"));
-                    v2.add(rs.getString("bloodGroup"));
-                    v2.add(rs.getString("address"));
-                    v2.add(rs.getString("symptoms"));
-                    v2.add(rs.getString("diagnosis"));
-                    v2.add(rs.getString("medicines"));
-                    v2.add(rs.getString("typeOfWard"));
-                    
+                    v2.add(rs.getString("Név"));
+                    v2.add(rs.getString("Telefonszám"));
+                    v2.add(rs.getString("Kor"));
+                    v2.add(rs.getString("Nem"));
+                    v2.add(rs.getString("Vércsoport"));
+                    v2.add(rs.getString("Cím"));
+                    v2.add(rs.getString("Tünetek"));
+                    v2.add(rs.getString("Diagnózis"));
+                    v2.add(rs.getString("Gyógyszerek"));
                 }
                 dft.addRow(v2);
             
@@ -267,7 +257,7 @@ public class UpdateRecord extends javax.swing.JFrame {
             Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
             con = DriverManager.getConnection("jdbc:ucanaccess://Hospital.accdb");
             
-                pst = con.prepareStatement("update hospital set name = ?, contact = ?, age = ?, gender = ?, bloodGroup = ?, address = ?, symptoms = ?, diagnosis = ?, medicines = ?, typeOfWard = ? where ID=?");
+                pst = con.prepareStatement("update hospital set Név = ?, Telefonszám = ?, Kor = ?, Nem = ?, Vércsoport = ?, Cím = ?, Tünetek = ?, Diagnózis = ?, Gyógyszerek = ?, where ID = ?");
                 pst.setString(1, lblName.getText());
                 pst.setString(2, lblContact.getText());
                 pst.setString(3, lblAge.getText());
@@ -277,11 +267,10 @@ public class UpdateRecord extends javax.swing.JFrame {
                 pst.setString(7, lblSymptoms.getText());
                 pst.setString(8, lblDiagnosis.getText());
                 pst.setString(9, lblMedicines.getText());
-                pst.setString(10, lblType.getSelectedItem().toString());
-                pst.setString(11, lblId.getText());
+                pst.setString(10, lblId.getText());
                
                 pst.executeUpdate();
-                JOptionPane.showMessageDialog(this, "Patient Updated.");
+                JOptionPane.showMessageDialog(this, "Adatok módosítva.");
                 
                lblId.setText("");
                lblName.setText("");
@@ -293,7 +282,6 @@ public class UpdateRecord extends javax.swing.JFrame {
                lblSymptoms.setText("");
                lblDiagnosis.setText("");
                lblMedicines.setText("");
-               lblType.setSelectedIndex(0);
             
             tableUpdate();
                     
@@ -318,7 +306,7 @@ public class UpdateRecord extends javax.swing.JFrame {
 
         int id = Integer.parseInt(model.getValueAt(selectedIndex, 0).toString());
         
-        int dialogresult = JOptionPane.showConfirmDialog(null, "Do you want to delete the record", "Warning ", JOptionPane.YES_NO_OPTION);
+        int dialogresult = JOptionPane.showConfirmDialog(null, "Tényleg törölni szeretnéd?", "Figyelmeztetés", JOptionPane.YES_NO_OPTION);
         
         if(dialogresult == JOptionPane.YES_OPTION)
         {
@@ -329,7 +317,7 @@ public class UpdateRecord extends javax.swing.JFrame {
                 pst = con.prepareStatement("delete from hospital where ID = ?");
                 pst.setInt(1, id);
                 pst.executeUpdate();
-                JOptionPane.showMessageDialog(this, "Record is deleted");
+                JOptionPane.showMessageDialog(this, "Páciens törölve.");
                 tableUpdate();
                lblId.setText("");
                lblName.setText("");
@@ -339,7 +327,6 @@ public class UpdateRecord extends javax.swing.JFrame {
                lblBlood.setText("");
                lblAddress.setText("");
                lblSymptoms.setText("");
-               lblType.setSelectedIndex(0);
                lblDiagnosis.setText("");
                lblMedicines.setText("");
                
@@ -368,7 +355,6 @@ public class UpdateRecord extends javax.swing.JFrame {
         lblSymptoms.setText(model.getValueAt(selectedIndex, 7).toString());
         lblDiagnosis.setText(model.getValueAt(selectedIndex, 8).toString());
         lblMedicines.setText(model.getValueAt(selectedIndex, 9).toString());
-        lblType.setSelectedItem(model.getValueAt(selectedIndex, 10).toString());
      
     }//GEN-LAST:event_empTableMouseClicked
 
@@ -415,7 +401,6 @@ public class UpdateRecord extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -436,6 +421,5 @@ public class UpdateRecord extends javax.swing.JFrame {
     private javax.swing.JTextField lblMedicines;
     private javax.swing.JTextField lblName;
     private javax.swing.JTextField lblSymptoms;
-    private javax.swing.JComboBox<String> lblType;
     // End of variables declaration//GEN-END:variables
 }
