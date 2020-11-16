@@ -254,7 +254,7 @@ public class UpdateRecord extends javax.swing.JFrame {
             Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
             con = DriverManager.getConnection("jdbc:ucanaccess://Hospital.accdb");
             
-                pst = con.prepareStatement("update hospital set Név=?, Telefonszám=?, Kor=?, Nem=?, Vércsoport=?, Cím=?, Tünetek=?, Diagnózis=?, Gyógyszerek=?, where ID=?");
+                pst = con.prepareStatement("update hospital set Név=?, Telefonszám=?, Kor=?, Nem=?, Vércsoport=?, Cím=?, Tünetek=?, Diagnózis=?, Gyógyszerek=? where ID=?");
                 pst.setString(1, lblName.getText());
                 pst.setString(2, lblContact.getText());
                 pst.setString(3, lblAge.getText());
