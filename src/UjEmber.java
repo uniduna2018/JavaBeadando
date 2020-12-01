@@ -30,7 +30,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author AreeshaJiwani
+ * @author DUE_prog3
  */
 public class UjEmber extends javax.swing.JFrame {
 

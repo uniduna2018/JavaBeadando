@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author AreeshaJiwani
+ * @author DUE_prog3
  */
 public class Kortortenet extends javax.swing.JFrame {
 
